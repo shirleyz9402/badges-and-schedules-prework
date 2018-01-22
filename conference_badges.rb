@@ -11,6 +11,5 @@ end
 
 def assign_rooms(speakers)
 # arr = []
- speakers.each_with_index{|speakers,index| p "Hello #{speakers}! You'll be assigned to room #{index + 1}!"}
- return arr 
+ return speakers.each_with_index{|speakers,index| p "Hello #{speakers}! You'll be assigned to room #{index + 1}!"}
 end 
