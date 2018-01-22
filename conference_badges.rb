@@ -9,8 +9,8 @@ def batch_badge_creator(names)
   return badge
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
  arr = []
- arr.push(speakers.each_with_index{|speakers,index| p "Hello #{speakers}! You'll be assigned to room #{index + 1}!"})
+ arr.push(speakers.each_with_index{|attendees,index| p "Hello #{attendees}! You'll be assigned to room #{index + 1}!"})
  return arr 
 end 
